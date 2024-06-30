@@ -12,6 +12,9 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+
+return strings.reduce((a,b) => (b.length > a.length ? b : a))
+
 }
 
 // No modifiques nada debajo de esta linea //
